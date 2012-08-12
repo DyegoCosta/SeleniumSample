@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumPoC.Web.Tests", "SeleniumPoC.Web.Tests\SeleniumPoC.Web.Tests.csproj", "{A94F8A3F-1688-46F0-8F51-3AD4ABE6C30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumPoC.Web", "SeleniumPoC.Web\SeleniumPoC.Web.csproj", "{79589E88-AAF4-4CC5-8E43-9C248686190E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79589E88-AAF4-4CC5-8E43-9C248686190E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79589E88-AAF4-4CC5-8E43-9C248686190E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79589E88-AAF4-4CC5-8E43-9C248686190E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79589E88-AAF4-4CC5-8E43-9C248686190E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94F8A3F-1688-46F0-8F51-3AD4ABE6C30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94F8A3F-1688-46F0-8F51-3AD4ABE6C30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94F8A3F-1688-46F0-8F51-3AD4ABE6C30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94F8A3F-1688-46F0-8F51-3AD4ABE6C30E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

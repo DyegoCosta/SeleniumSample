@@ -1,0 +1,34 @@
+﻿@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Getting started with Selenium</h1>
+                <h2>To learn more about Selenium visit http://seleniumhq.org </h2>
+            </hgroup>            
+        </div>
+    </section>
+}
+<h3>My awesome test form</h3>
+
+<div>
+    <input type="text" id="name" placeholder="Name" />
+    <button id="go">Go</button>    
+    <span id="message"></span>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js "></script>
+
+<script type="text/javascript">
+    $("#name").keydown(function(e) {
+        if (e.keyCode == '13')
+            $("#go").trigger("click");
+    });
+
+    $("#go").click(function () {
+        var name = $("#name").val();        
+
+        var message = "Hello " + name;
+        
+        $("#message").text(message);
+    });
+</script>
